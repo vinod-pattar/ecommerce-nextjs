@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/a1d8ab96-9015-4ac6-948c-65b3fa7219be/deploy-status)](https://app.netlify.com/sites/ecommerce-md/deploys)
+
 # eCommerce
 
 An ecommerce app built using NextJS and Django APIs

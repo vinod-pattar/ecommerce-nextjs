@@ -3,6 +3,7 @@ import "./globals.css";
 import ThemeProvider from "@/components/ThemeProvider";
 import { Header } from "@/components/common/header";
 import {Footer} from "@/components/common/footer";
+// import { AppStoreProvider } from "@/providers/store-provider";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -25,6 +26,7 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased pt-32`}
       >
+        {/* <AppStoreProvider> */}
         <ThemeProvider
           attribute="class"
           defaultTheme="dark"
@@ -34,6 +36,7 @@ export default function RootLayout({ children }) {
           {children}
           <Footer />
         </ThemeProvider>
+        {/* </AppStoreProvider> */}
       </body>
     </html>
   );
